@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+$f: "Nunito";
+$bg: #5a4ec79d;
+
+.quote {
+    // position: absolute;
+    // left: 20px;
+    // top: 10%;
+}
+
+.wrap {
+    width: 650px;
+    position: relative;
+}
+
+.rhomb {
+    top: -20px;
+    right: -70px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: $bg;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 6px solid $bg;
+}
+
+.img {
+    position: absolute;
+    border-radius: 20px;
+}
+
+.block {
+    width: 640px;
+    height: 140px;
+    background-color: $bg;
+    border-radius: 20px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.mercury {
+    width: 40px;
+    height: 40px;
+    background-color: #404040;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 20px 0 20px 0;
+}
+
+.el {
+    color: white;
+    font-size: 42px;
+    text-align: center
+}
+
+.container {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 62px;
+}
+
+.line {
+    background-color: white;
+    width: 1px;
+    height: 105px;
+    margin-left: 8px;
+}
+
+.text {
+    position: relative;
+    color: white;
+    font-size: 20px;
+    flex-basis: 77%;
+    font-family: $f;
+
+}
+
+.author_info {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-radius: 0px 20px 0px 20px;
+    width: auto;
+    padding: 0px 10px;
+    height: 35px;
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 16px;
+    font-family: $f;
+}

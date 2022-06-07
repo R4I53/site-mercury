@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+$f: "Nunito";
+$bg: #5a4ec79d;
+
+.quote {
+    // position: absolute;
+    // right: 20px;
+    // top: 20%;
+}
+
+.wrap {
+    width: 650px;
+    position: relative;
+}
+
+.bk {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.rhomb {
+    top: -20px;
+    left: -70px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: $bg;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 6px solid $bg;
+
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.block {
+    width: 650px;
+    height: 145px;
+    background-color: $bg;
+    border-radius: 20px;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.mercury {
+    width: 40px;
+    height: 40px;
+    background-color: #404040;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-radius: 0 20px 0 20px;
+}
+
+.el {
+    color: white;
+    font-size: 42px;
+    text-align: center
+}
+
+.container {
+    position: relative;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.line {
+    background-color: white;
+    width: 1px;
+    height: 105px;
+    margin-right: 16px;
+}
+
+.text {
+    position: relative;
+    width: 90%;
+    color: white;
+    font-size: 20px;
+    flex-basis: 75%;
+    font-family: $f;
+}
+
+.author_info {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 20px 0px 20px 0px;
+    width: auto;
+    padding: 0px 10px;
+    height: 35px;
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    color: rgba(255, 255, 255, 0.822);
+    font-size: 16px;
+    font-family: $f;
+}

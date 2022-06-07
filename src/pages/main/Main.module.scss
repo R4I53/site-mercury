@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta:700');
+
+$f: "Nunito";
+
+.main {
+    width: 100%;
+    height: 9000px;
+    position: relative;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.video {
+    position: fixed;
+}
+
+.quote_constainer_1 {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 800px;
+}
+
+.q_one_1 {
+    align-self: flex-end;
+    padding-left: 100px;
+}
+
+.q_one_2 {
+    align-self: center;
+    padding-right: 85px;
+}
+
+.quote_constainer_2 {
+    width: 100%;
+    height: 5000px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //padding-bottom: 2500px;
+}
+
+.quote_constainer_2>div {
+    flex-basis: 40%;
+    position: relative;
+}
+
+.ot {
+    height: 2500px;
+}
+
+.q_two_1 {
+    align-self: center;
+    padding-left: 70px;
+    padding-top: 500px;
+}
+
+.q_two_2 {}
+
+.q_two_3 {
+    align-self: flex-end;
+    padding-left: 70px;
+    margin-bottom: 1000px;
+}
+
+.q_two_4 {
+    padding-top: 130px;
+}
+
+.end {
+    width: 100%;
+    height: 70%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.el {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.button {
+    margin-top: 700px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+
+.button>a {
+    color: black;
+    font-family: $f;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+%text {
+    color: white;
+    font-size: 85px;
+    font-family: $f;
+    //background-color: blue;
+
+    @media screen and (max-width: 1650px) {
+        font-size: 70px
+    }
+
+    @media screen and (max-width: 1450px) {
+        font-size: 60px
+    }
+
+    @media screen and (max-width: 1250px) {
+        font-size: 50px
+    }
+
+    @media screen and (max-width: 1050px) {
+        font-size: 40px
+    }
+
+
+}
+
+.text1 {
+    @extend %text;
+}
+
+.text2 {
+    margin-top: 90px;
+    margin-left: 15px;
+    @extend %text;
+}
+
+.text3 {
+    margin-top: 180px;
+    margin-left: 15px;
+    @extend %text;
+}
